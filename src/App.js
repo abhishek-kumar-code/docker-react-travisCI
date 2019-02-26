@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React with Abhishek Kumar. Reach us out at theakumar.com
+            Learn React with Abhishek Kumar. Develop, test and deploy using TravisCI and AWS Elastic Beanstalk.
           </a>
         </header>
       </div>
