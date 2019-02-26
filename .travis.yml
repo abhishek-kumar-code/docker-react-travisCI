@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t abhishek-kumar-code/docker-react-travisCI -f Dockerfile.dev .
+  - docker build -t abhishek-kumar-code/docker-react-travisci -f Dockerfile.dev .
 
 script: 
-  - docker run abhishek-kumar-code/docker-react-travisCI npm run test -- --coverage
+  - docker run abhishek-kumar-code/docker-react-travisci npm run test -- --coverage
